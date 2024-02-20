@@ -1,0 +1,29 @@
+@media (min-width: 990px) {
+  nav #nav {
+    display: none;
+  }
+}
+body{
+  background-color: skyblue;
+}
+#navbarSupportedContent li a {
+  border-bottom: 2px solid transparent;
+  color: #0cc74d !important;
+}
+nav {
+  box-shadow: 5px 5px 20px #a6acb1;
+}
+
+nav #nav {
+  color: #fbfdfe !important;
+}
+
+#navbarSupportedContent li a:hover {
+  border-bottom: 4px solid #59be85;
+  cursor: pointer;
+  color: #eb8a3c !important;
+  transition: 0.3s ease-out;
+}
+.navbar{
+  background-color: rgb(238, 232, 233) !important;
+}
